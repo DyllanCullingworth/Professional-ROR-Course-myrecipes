@@ -67,5 +67,4 @@ test:
 production:
   <<: *default
   database: myrecipes_production
-  username: myrecipes
-  password: <%= ENV['MYRECIPES_DATABASE_PASSWORD'] %>
+
